@@ -72,11 +72,16 @@
         sized word companies. Email our office using contact@website.com or call
         us using +123-456-7890
       </p>
-      <form class="form container">
-        <input type="text" placeholder="Name" required />
-        <input type="email" placeholder="Email" required />
-        <textarea name="message" id="message" required>Message</textarea>
-        <button class="btn btn-solid">Send Message</button>
+      <form class="form container" name="contact" netlify>
+        <input type="text" name="name" placeholder="Name" required />
+        <input type="email" name="email" placeholder="Email" required />
+        <textarea
+          name="message"
+          id="message"
+          placeholder="Message"
+          required
+        ></textarea>
+        <button type="submit" class="btn btn-solid">Send Message</button>
       </form>
       <div class="location container">
         <h2>Office Location</h2>
