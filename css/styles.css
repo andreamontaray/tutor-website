@@ -561,11 +561,6 @@ img {
   padding: 20px;
 }
 
-input::placeholder,
-.form textarea {
-  color: #bbb;
-}
-
 .form textarea {
   font-family: inherit;
   height: 200px;
